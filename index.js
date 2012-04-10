@@ -4,7 +4,6 @@ var Module = require('module');
 var fs = require('fs');
 var path = require('path');
 var sinon = require('sinon');
-var sanboxed_module = require('sandboxed-module');
 var vm = require('vm');
 
 module.exports = Scoff;
